@@ -76,7 +76,7 @@ Sub RunContractFileAssembly()
     
     Exit Sub
     
-    ' Message box if a exception occured
+    ' Message box if an exception occured
 catch_exception:
     MsgBox ("An error occured during the execution")
         
