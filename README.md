@@ -12,4 +12,4 @@ MS Excel VBA script to automate multiple "Find and replace" actions in a MS Word
 ### How to use
 To start, open the "initial.xlsm" file. VBA script is executed when the "Launch" button is pressed. The script creates a dictionary from another Excel file, specified as "Initial data file" (B1 cell in initial.xlsm). Then the script opens Word template with the name in B2 cell, replaces all dictionary keys (like #message_title#) with dictionary values (like "Have a nice day!") and prompts the user to save the new Word file with all the replacements.
 
-Both initial data file and Word template are opened by the paths relative to the current directory and as .xlsx/.docx files. So, if "initial.xlsm" is in the "D:\scripts\" folder and initial data file is specified as "data", the script will attempt to open the file as "D:\scripts\data.xlsx".
+Both initial data file and Word template are opened by the paths relative to the current directory and in .xlsx/.docx format. So, if "initial.xlsm" is in the "D:\scripts\" folder and initial data file is specified as "data", the script will attempt to open the file as "D:\scripts\data.xlsx".
